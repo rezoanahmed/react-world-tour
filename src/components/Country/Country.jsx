@@ -1,10 +1,15 @@
-const Country = ({country}) => {
+import "../../App.css"
+const Country = ({ country }) => {
     // console.log(country);
-    const {name} = country;
+    const { name, flags } = country;
     return (
-        <div>
-            <h3>Name: {name?.common}</h3>
-        </div>
+        <>
+                <div className="country">
+                    <h3>Name: {name?.common}</h3>
+                    <img src={flags.png} alt={flags.png} />
+                </div>
+
+        </>
     );
 };
 
