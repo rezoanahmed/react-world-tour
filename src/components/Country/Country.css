@@ -5,6 +5,7 @@ button{
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.2s ease-in-out;
+    margin-right: 20px;
 }
 button:hover{
     outline: 1px solid dodgerblue;
@@ -13,4 +14,12 @@ button:hover{
     /* color: white; */
     /* padding: 10px 20px; */
     /* border-radius: 10px; */
+}
+.visited{
+    background-color: yellowgreen;
+    color: black;
+}
+.not-visited{
+    background-color: tomato;
+    color: black;
 }
